@@ -13,5 +13,10 @@ These models have at least 10 years worth of data. This dataset is
 suitable for a left-join designed to restrict the number of observations
 to a more manageable level.
 }
+\examples{
+if (require("dplyr")) {
+vehicles \%>\% semi_join(common)
+}
+}
 \keyword{datasets}
 

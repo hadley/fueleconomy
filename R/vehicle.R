@@ -22,6 +22,12 @@
 #' }
 #'
 #' @source \url{http://www.fueleconomy.gov/feg/download.shtml}
+#' @examples
+#' if (require("dplyr")) {
+#' vehicles
+#' vehicles %>% group_by(year) %>% summarise(cty = mean(cty))
+#' }
+#'
 "vehicles"
 
 #' Common models
@@ -32,4 +38,8 @@
 #'
 #' @format A dataset with variables make, model, n (total number of models) and
 #'   years (total number of model-years).
+#' @examples
+#' if (require("dplyr")) {
+#' vehicles %>% semi_join(common)
+#' }
 "common"

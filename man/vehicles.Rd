@@ -30,5 +30,11 @@ Fuel economy data from the EPA, 1985-2015. This dataset contains
 selected varaibles, and removes vehicles with incomplete data (e.g.
 no drive train data)
 }
+\examples{
+if (require("dplyr")) {
+vehicles
+vehicles \%>\% group_by(year) \%>\% summarise(cty = mean(cty))
+}
+}
 \keyword{datasets}
 
