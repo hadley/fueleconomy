@@ -10,3 +10,4 @@ License: CC0
 LazyData: true
 Suggests:
     dplyr
+URL: http://github.com/hadley/fueleconomy
