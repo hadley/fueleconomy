@@ -1,6 +1,6 @@
 Package: fueleconomy
 Title: EPA Fuel Economy Data
-Version: 0.1.0.9000
+Version: 1.0.0
 Authors@R: 
     person(given = "Hadley",
            family = "Wickham",
