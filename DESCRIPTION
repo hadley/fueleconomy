@@ -11,3 +11,4 @@ LazyData: true
 Suggests:
     dplyr
 URL: http://github.com/hadley/fueleconomy
+RoxygenNote: 7.1.0
