@@ -9,7 +9,8 @@ Authors@R:
 Description: Fuel economy data from the EPA, 1985-2015,
     conveniently packaged for consumption by R users.
 License: CC0
-URL: http://github.com/hadley/fueleconomy
+URL: https://github.com/hadley/fueleconomy
+BugReports: https://github.com/hadley/fueleconomy/issues
 Depends:
     R (>= 3.1.0)
 Suggests:
