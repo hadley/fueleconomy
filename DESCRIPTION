@@ -1,14 +1,19 @@
 Package: fueleconomy
 Title: EPA fuel economy data
 Version: 0.1
-Authors@R: 'Hadley Wickham <h.wickham@gmail.com> [aut,cre]'
-Description: Fuel economy data from the EPA, 1985-2015, conveniently
-    packaged for consumption by R users.
+Authors@R: 
+    person(given = "Hadley",
+           family = "Wickham",
+           role = c("aut", "cre"),
+           email = "hadley@rstudio.com")
+Description: Fuel economy data from the EPA, 1985-2015,
+    conveniently packaged for consumption by R users.
+License: CC0
+URL: http://github.com/hadley/fueleconomy
 Depends:
     R (>= 3.1.0)
-License: CC0
-LazyData: true
 Suggests:
     dplyr
-URL: http://github.com/hadley/fueleconomy
+Encoding: UTF-8
+LazyData: true
 RoxygenNote: 7.1.0
