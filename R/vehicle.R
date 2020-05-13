@@ -1,7 +1,7 @@
 #' Vehicle data
 #'
 #' Fuel economy data from the EPA, 1985-2015. This dataset contains
-#' selected varaibles, and removes vehicles with incomplete data (e.g.
+#' selected variables, and removes vehicles with incomplete data (e.g.
 #' no drive train data)
 #'
 #' @format A data frame with variables:
